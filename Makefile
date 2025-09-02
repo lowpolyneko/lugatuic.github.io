@@ -84,4 +84,4 @@ clean:
 
 # Build website, then run locally for testing.
 demo: all
-	python -m http.server -d public/ -b 127.0.0.1 8080
+	static-web-server -d ${PUBLIC} -p 8787
